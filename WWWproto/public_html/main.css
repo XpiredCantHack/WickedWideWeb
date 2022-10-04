@@ -1,0 +1,154 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 16 Aug 2022, 13:23:08
+    Author     : Henry Pinn
+*/
+
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+/*ul {
+    font-family: helvetica;
+}
+*/
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+/*#msg {
+    font-family: monospace;
+}
+*/
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.homeBtn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 108px;
+    width: 108px;
+    background-color: #11c4d1;
+    font-family: Gill;
+    font-size: 27px;
+    transform: translate(-8%, -8%);
+}
+
+.messageIcon {
+    position: absolute;
+    top: 108px;
+    left: 0px;
+    height: 108px;
+    width: 108px;
+    transform: translate(-8%, -8%);
+}
+
+.micIcon {
+    position: absolute;
+    top: 216px;
+    left: 0px;
+    height: 108px;
+    width: 108px;
+    transform: translate(-8%, -8%);
+}
+
+.recentSites1 {
+    position: absolute;
+    top: 324px;
+    left: 0px;
+    font-size: 26px;
+    transform: translate(-8%, -8%);
+}
+.recentSites2 {
+    position: absolute;
+    top: 350px;
+    left: 13px;
+    font-size: 26px;
+    transform: translate(-8%, -8%);
+}
+
+.mainControls {
+    position: fixed;
+    
+}
+
+
+
+#vertRectangle {
+    position: fixed;
+    height: 100%;
+    width: 108px;;
+    background-color: #11c4d1;
+    z-index: 1;
+}
+#horiRectangle {
+    position: fixed;
+    height: 108px;
+    width: 100%;
+    background-color: #11c4d1;
+    z-index: 1;
+}
+
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
+
+.content {
+    padding: 16px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    width: 90%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
