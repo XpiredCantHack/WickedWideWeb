@@ -110,12 +110,15 @@ li {
 .mainControls {
     position: fixed;
     
+    
 }
 
 
 
 #vertRectangle {
     position: fixed;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 108px;;
     background-color: #11c4d1;
@@ -123,6 +126,8 @@ li {
 }
 #horiRectangle {
     position: fixed;
+    top: 0;
+    left: 0;
     height: 108px;
     width: 100%;
     background-color: #11c4d1;
