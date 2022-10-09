@@ -120,14 +120,33 @@ li {
     z-index: 2;
     bottom: 0;
     left: 108px;
+    width: 1812px;
     height: 108px;  
 }
 
+.profileBox {
+    width: 324px;
+    height: 108px;
+}
+
+.profilePicBox {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+}
 #userProfilePic {
     width: 108px;
     height: auto;
     margin-bottom: 0;
     padding-bottom: 0;
+}
+
+.userDetailsBox {
+    position: absolute;
+    height: 108px;
+    width: 216px;
+    top: 0;
+    left: 108px;
 }
 
 #username {
@@ -138,9 +157,87 @@ li {
 }
 #userRating {
     position: absolute;
-    width: 50px;
+    width: auto;
     top: 32px;
     font-weight: lighter;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.userInputBox {
+    position:absolute;
+    width: 540px;
+    float: top;
+    top: 0;
+    left: 324px;
+    height: 108px;
+    z-index: 3;
+}
+
+.InputBox {
+    position: absolute;
+    padding: 0;
+    top: 16px;
+    left: 54px;
+    width: 432px;
+}
+
+#userTextInput {
+    height: 36px;
+    width: 432px;
+    box-sizing: border-box;
+}
+#userFileInput {
+    height: auto;
+    width: 432px;
+}
+#submitUserInput {
+    position: absolute;
+    left: 432px;
+    top: 0;
+    height:36px;
+}
+
+
+.secondarySideControls {
+    position: absolute;
+    width: 108px;
+    height: 100%;
+    float: right;
+    right: 0;
+    bottom: 0;
+}
+.callUserControlBox {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    float: bottom;
+    float: right;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    
+}
+.joinLeaveCall {
+    position: absolute;
+}
+.userCallStatus {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    right: 0;
+}
+
+#userJoinLeaveCallBtn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 108px;
+    width: 108px;
+    background-color: #11c4d1;
+    font-family: Gill;
+    font-size: 27px;
+    
 }
 
 #vertRectangle1 {
@@ -157,7 +254,7 @@ li {
     top: 0;
     right: 0;
     height: 100%;
-    width: 62px;;
+    width: 108px;;
     background-color: #11c4d1;
     z-index: 1;
 }
@@ -183,7 +280,7 @@ li {
     bottom: 108px;
     top: 0px;
     left: 100px;
-    width: 90%;
+    width: 87.5%;
     overflow-y: scroll;
     overflow-x: hidden;
 }

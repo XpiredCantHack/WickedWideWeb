@@ -56,11 +56,39 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
             <b class="recentSites2">SITES</b>
         </div>
         <div class="mainBottomControls">
-            <img id="userProfilePic" src="tempProfilePic.jpg" alt="temporary user profile image">
-            <b id="username">USER1168398459</b>
-            <b id="userRating">Rating: 8.7</b>
+            <div class="profileBox">
+                
+                <div class="profilePicBox">
+                    <img id="userProfilePic" src="tempProfilePic.jpg" alt="temporary user profile image">
+                </div>
+                <div class="userDetailsBox">
+                    <b id="username">USER1168398459</b>
+                    <b id="userRating">Rating: 8.7</b>
+                </div>
+            </div>
+            <div class="userInputBox">
+                <form action="">
+                    <div class="InputBox">
+                        <input type="text" id="userTextInput" name="UserTextInput">
+                        <input type="file" id="userFileInput" name="UserFileInput">
+                        <input type="submit" value="Enter" id="submitUserInput">
+                    </div>
+                </form>
+            </div>
         </div>
-             
+        <div class="secondarySideControls">
+            <div class="callUserControlBox">
+                <div class="joinLeaveCall">
+                </div>
+                <div class="userCallStatus"> <!-- "In Call", "Left Call", "Connecting...", "Disconnecting..." --> 
+                    <button id="userJoinLeaveCallBtn">Join Call</button>
+                </div>
+                
+            </div>
+        </div>
         
+        <script src="app.js"></script><!-- keep script at bottom of body so rest of body loads before js functionality -->
+        <noscript>Enable JavaScript to view full site.</noscript>
     </body>
+    
 </html>
