@@ -333,8 +333,18 @@ li {
     margin: auto;
     position: relative;
     width: auto;
+    text-align: center;
 }
 
+#usernameInput {
+    
+    text-align: center;
+    position: relative;
+    display:table;
+    margin: auto;
+    width: 250px;
+    height: 25px;
+}
 
 
 
