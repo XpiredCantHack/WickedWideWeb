@@ -329,24 +329,47 @@ li {
     width: auto;
 }
 
-#usernameTitle {
+.loginUPTitle {
     margin: auto;
     position: relative;
+    top: 24px;
     width: auto;
     text-align: center;
+    font-size: 36px;
 }
 
-#usernameInput {
-    
+.loginUPInput {
     text-align: center;
     position: relative;
     display:table;
     margin: auto;
+    top: 24px;
     width: 250px;
     height: 25px;
 }
 
 
+#loginButton {
+    position: relative;
+    display: table;
+    margin: auto;
+    top: 36px; 
+    width: 136px;
+    height: 58px;
+    font-size: 24px;
+    background-color: #00FF00;
+}
+
+#signUpButton {
+    position: relative;
+    display: table;
+    margin: auto;
+    top: 78px; 
+    width: 324px;
+    height: 42px;
+    font-size: 16px;
+    background-color: #4040FF;
+}
 
 
 

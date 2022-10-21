@@ -15,12 +15,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
     <body class='fullPage'>
         
         <div class='loginBox'>
-            <form class='loginForm'>
-                <h2 id='usernameTitle'>Username</h2>
-                <input id='usernameInput' type="text" placeholder="Enter Username" name="uname" required>
-                <h2 id='usernameTitle'>Password</h2>
-                <input id='usernameInput' type="text" placeholder="Enter Username" name="uname" required>
+            <form class='loginForm' action="/login_user.php">
+                <h2 class='loginUPTitle'>Username</h2>
+                <input id='usernameInput' class='loginUPInput' type="text" placeholder="Enter username..." name="uname" required>
+                <h2 class='loginUPTitle'>Password</h2>
+                <input id='passwordInput' class='loginUPInput' type="password" placeholder="Enter password..." name="pname" required>
+                <button type='submit' id='loginButton'>Log in</button>
             </form>
+            <button id='signUpButton'>Sign Up!</button>
         </div>
         
 
